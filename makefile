@@ -5,7 +5,7 @@ libcalcinc := -Ilibcalc/inc
 inc := -I.
 
 simplecalc: $(objects) $(libcalc)
-	gcc -o simplecalc $(objects) -lm -lcalc -L$(libcalcpath) $(libcalcinc) $(inc)
+	gcc -o simplecalc $(objects) -lcalc -L$(libcalcpath) $(libcalcinc) $(inc) -lm
 
 main.o:
 	gcc -c main.c $(inc) $(libcalcinc)
