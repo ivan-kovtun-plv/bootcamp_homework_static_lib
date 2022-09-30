@@ -15,11 +15,11 @@ to delete.
 
 Simplecalc can be called by a command:
 
-    simplecalc arg1 arg2 arg3
+    ./simplecalc arg1 arg2 arg3
 
 or without arguments:
 
-    simplecalc
+    ./simplecalc
 
 If it is called without arguments, it asks to input arguments from stdin.
 
