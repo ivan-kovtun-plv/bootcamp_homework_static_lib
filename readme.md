@@ -3,7 +3,7 @@
 Just a tutorial project.   
 Simplecalc can do arithmetic operations on numbers.
 
-## how to buildl
+## how to build
 
 To build just use
     make
